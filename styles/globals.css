@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin:0;
+    padding:0;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    min-width: 720px;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 600px; /* Set same as footer's height */
+}
+
+/*----------------------------START HEADER CSS------------------------------------------*/
+
+header{
+    background: #505578;
+    background-size: 300% 300%;
+    min-height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#header-linker{
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.real-header{
+    width: 64.5%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+.logo-greatguestposts{
+    width: 110px;
+    height: 70px;
+}
+
+.header-links-place{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-link{
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/*----------------------------END HEADER CSS------------------------------------------*/
+
+/*----------------------------START FOOTER CSS------------------------------------------*/
+
+footer{
+    position: absolute;
+    bottom:0;
+    padding: 40px 0 40px 0;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #242A56;
+    max-height: 600px;
+}
+
+.real-footer{
+    width: 64.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+.Logo-redirectIcons-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.redirectIcons-footer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.redirects-place{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.a-place{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*----------------------------END FOOTER CSS------------------------------------------*/
+
+
+/*----------------------------START GETSTARTED-SECTION CSS--------------------------------------*/
+
+#getstarted-section{
+    display: flex;
+    justify-content: center;
+    background-color: #505578;
+}
+
+.real-getstarted{
+    margin-top: 40px;
+    width: 64.5%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.explanation-getstarted{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    gap: 20px;
+}
+
+.explanation-getstarted p{
+    color: rgba(255, 255, 255, 0.61)
+}
+
+.explanation-getstarted h1{
+    color: white;
+}
+
+.log-reg-mini-page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.log-reg-form input{
+    font-size: x-large;
+    border-width: 0px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 7px;
+    padding: 10px 16px;
+}
+
+.buttonBack{
+    margin-bottom: 15px;
+    padding: 14px;
+    width: 200px;
+    border-radius: 8px;
+    border-width: 0px;
+
+}
+
+.log-reg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.log-reg{
+    max-height: 450px;
+    min-height: 450px;
+    max-width: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}
+
+.log-reg-form button{
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #0274BE;
+    color: aliceblue;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.log-reg-form button:hover{
+    background-color: aliceblue;
+    color: #0274BE;
+    transition: 0.3s;
+}
+
+
+.log-reg-form button:hover{
+    background-color: aliceblue;
+    color: #0274BE;
+    transition: 0.3s;
+}
+
+.start-button{
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #0274BE;
+    color: aliceblue;
+    font-size: x-large;
+    transition: 0.3s;
+    text-align: center;
+    white-space: nowrap; 
+}
+
+.start-button:hover{
+    background-color: aliceblue;
+    color: #0274BE;
+    transition: 0.3s;
+    white-space: nowrap; 
+}
+
+.log-reg-buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.real-log-div{
+    position: relative;
+}
+
+.log-reg-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left:0;
+    right:0;
+    margin:auto;
+    width: min-content;
+    height: min-content;
+    top:0;
+    bottom:0;
+}
+
+.reg-div{
+    max-width: 350px;
+    display: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.log-reg-buttons{
+    position: absolute;
+    margin:auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.log-reg-buttons button{
+    padding: 20px 40px;
+}
+
+.rating_reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    min-width: 120px;
+    height: 170px;
+}
+
+.rating_reviews p{
+    text-align: center;
+    white-space: nowrap; 
+}
+
+.rating_reviews h4{
+    white-space: nowrap; 
+    text-align: center;
+}
+
+.col-6{
+    padding: 20px;
+}
+
+.green{
+    background: linear-gradient(270deg, #02b77b, #41c89c, #17ba83);
+}
+
+.image{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brown{
+    background: linear-gradient(270deg, #5d4e2c, #988146, #625c43);
+}
+
+.red{
+    background: linear-gradient(270deg, #e3431b, #e14017, #ff704d);
+}
+
+.blue{
+    background: linear-gradient(270deg, #518ef8, #568cf1, #6789e0);
+}

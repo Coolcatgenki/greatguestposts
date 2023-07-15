@@ -1,0 +1,45 @@
+.valid{
+    background-color: salmon;
+}
+
+.log-form{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+}
+
+.log-mini-page{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.log-form input{
+    font-size: x-large;
+    border-width: 0px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 7px;
+    padding: 10px 16px;
+}
+
+.log-form button{
+    padding: 15px;
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #0274BE;
+    color: aliceblue;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.log-form button:hover{
+    background-color: aliceblue;
+    color: #0274BE;
+    transition: 0.3s;
+}
+
+.buttonBack{
+    position: absolute;
+}
